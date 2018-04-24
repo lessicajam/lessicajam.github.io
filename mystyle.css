@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: red;
+	max-width: 100%; 
+	font-family: 'Calligraffitti';
+
+}
+
+div {
+	width: 600px;
+	height: 200px;
+	margin: 20px auto;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	display: block; /*for the img inside your div */  
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+i {
+	font-size: 100px;
+}
+
+ul {
+	background-color: brown;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	width:100%px;
+	height: 60px;
+	line-height: 60px;
+
+}
+ul li {
+	float: left;
+	list-style-type: none;
+	padding-right: 100px;
+	padding-left: 50px;
+	/*background-color: pink; */
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color:blue;
+	font-weight: bold;
+}
+
+h1 {
+	border:3px solid pink;
+	border-style: dotted dashed solid double;
+	width:600px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 30px;  
+}
+
+.colorchange {
+	color: purple;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 500px; 
+}
+
+h3 {
+	color: purple; 
+	font-style: italic;
+	text-align: center;
+}
+
+#sketch {
+	border: none;
+	width: 100vw;
+	height: 0vh;
+}
+
+#overwrite {
+	color: cyan;
+}
+
+p {
+	font-size-adjust: 
+
+}
+
+video {
+	padding: 100px;
+}
+ img {
+ 	padding: 100px;
+
+ }
+
